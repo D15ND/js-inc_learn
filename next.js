@@ -49,3 +49,15 @@ console.log(result1);
 const r1=(14.12345);
 console.log(r1.toFixed(2)); // оругление до n-запятой
 console.log(r1.toFixed(5));
+
+let list=[14, 22, 17];
+var min = function(list){
+    console.log(min);
+    return Math.min(list);
+    console.log('minimal value is:', min);
+}
+var max = function(list){
+    return Math.max(list);
+    console.log('maximum value is:', max);
+}
+console.log(Math.)
