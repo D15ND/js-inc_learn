@@ -28,3 +28,17 @@ console.log(result);
 
 let randomStr='aLOFERo';
 console.log(randomStr.slice(1, -1));
+
+let randomSymbol='I';
+let x1=randomSymbol*5;
+console.log(x1);
+console.log('x'+'x');
+
+
+let qwe='one-';
+let n=5;
+console.log(qwe+qwe);
+
+console.log(qwe.repeat(n)); //repeat string n-times;
+
+// const fun1=(example) => qwe.repeat(n);
