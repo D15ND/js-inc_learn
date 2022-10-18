@@ -42,3 +42,30 @@ console.log(qwe+qwe);
 console.log(qwe.repeat(n)); //repeat string n-times;
 
 // const fun1=(example) => qwe.repeat(n);
+
+console.log('google'.replace('go', 'mo')); //change letters
+let ya='yandex';
+console.log(ya.replace('ya', 'da')); //change too with let
+
+console.log(ya[ya.length-1]); // last letter
+
+console.log(ya.slice(0, n));
+
+const pow12=(n,p) => {
+    return n**p;
+}
+console.log(pow12(3,2));
+
+const pow13=(n,p) => {
+    return Math.pow(n,p);
+}
+console.log(pow13(4,2));
+
+// let cardNum='1234567812345678';
+// console.log(cardNum.slice(12,16));
+
+//creditcard
+const getHiddenCard=(cardNum, sybolNum) => {
+    return ('*'.repeat(sybolNum)+(cardNum.slice(12,16)));
+}
+console.log(getHiddenCard('1234567812345678', 1));
