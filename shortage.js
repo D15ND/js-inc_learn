@@ -2,4 +2,4 @@
 // и проверяет, является ли он пенсионным. Пенсионером считается человек,
 // достигший возраста 60 лет и больше.
 const isPensioner=(userAge) => userAge>=60;
-console.log(isPensioner(65));ы
+console.log(isPensioner(65));
